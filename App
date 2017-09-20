@@ -1,0 +1,5 @@
+#Calc fileprint ("Basic Calc!")print ("1. Add")print ("2. Subtract")print ("3. Mulitply")print ("4. Divide")
+choice = input("Enter option: ")
+num1 = input("Enter the first number: ")num2 = input("Enter the second number: ")
+if choice == '1':  oc = float(num1) + float(num2)  print("The sum of {0} and {1} is {2}" .format(num1,num2,oc)    else:   print("Invalid")
+
