@@ -10,11 +10,11 @@ while choice != 'x': 
   choice = input("Enter option.")
   if choice == 'x':
     break
-  if choice != [1,5}
-    print ("invlaid")
+  
   num1 = input("Enter the first number(x to quit): ")
   if num1 == 'x':
     break
+  
   num2 = input("Enter the second number: ")
   if num2 == 'x'
     break
