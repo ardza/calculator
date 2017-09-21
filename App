@@ -1,31 +1,39 @@
-;#Calc file
-print ("Basic Calc")
-print ("1. Add")
-print ("2. Subtract")
-print ("3. Mulitply")
-print ("4. Divide")
-
-choice = input("Enter option: ")
-
-num1 = input("Enter the first number: ")
-num2 = input("Enter the second number: ")
-
-if choice == '1':  
-  ocadd = float(num1) + float(num2)  
-  print("The sum of {0} and {1} is {2}" .format(num1,num2,ocadd)) 
-elif choice == '2':
-  ocsub = float(num1) - float(num2)
-  print("The difference of {0} and {1} is {2}" .format(num1,num2,ocsub))
-elif choice == '3':
-  ocmul = float(num1) * float(num2)
-  print("The product of {0} and {1} is {2}" .format(num1,num2,ocmul))
-elif choice == '4':
-  ocdiv = float(num1) / float(num2)
-  print("The quotient of {0} and {1} is {2}" .format(num1,num2,ocdiv))
-elif choice == 'x';
-  then exit
-  
-else:  
+#Calc file
+choice = "a"
+while choice != 'x':  
+  print ("Basic Calc") 
+  print ("1. Add")  
+  print ("2. Subtract")  
+  print ("3. Mulitply")  
+  print ("4. Divide")  
+  print ("x.Exit")
+  choice = input("Enter option.")
+  if choice == 'x':
+    break
+  if choice != [1,5}
+    print ("invlaid")
+  num1 = input("Enter the first number(x to quit): ")
+  if num1 == 'x':
+    break
+  num2 = input("Enter the second number: ")
+  if num2 == 'x'
+    break
+    
+  if choice == '1':      
+    ocadd = float(num1) + float(num2)      
+    print("The sum of {0} and {1} is {2}" .format(num1,num2,ocadd))   
+  elif choice == '2':    
+    ocsub = float(num1) - float(num2)    
+    print("The difference of {0} and {1} is {2}" .format(num1,num2,ocsub))  
+  elif choice == '3':    
+    ocmul = float(num1) * float(num2)    
+    print("The product of {0} and {1} is {2}" .format(num1,num2,ocmul))  
+  elif choice == '4':    
+    ocdiv = float(num1) / float(num2)    
+    print("The quotient of {0} and {1} is {2}" .format(num1,num2,ocdiv))    
+  else:      
   print("Invalid")
+
+
 
 
